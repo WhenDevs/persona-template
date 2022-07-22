@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header__inner {
+  display: flex;
+}
+
+aside {
+  background: #fff;
+  width: 384px;
+  height: 100vh;
+  padding: 32px;
+  box-shadow: 20px 0px 200px rgba(2, 13, 31, 0.04);
+}
+
+aside > img {
+  background-blend-mode: screen, normal;
+  border-radius: 16px;
+}
+
+.aside-about {
+  margin-top: 160px;
+}
+
+.age,
+.education,
+.info {
+  margin-bottom: 40px;
+}
+
+.info > .text-italic {
+  font-style: italic;
+  color: #4a5568;
+}
+
+.age p,
+.education p {
+  color: #4a5568;
+}
+
+.author {
+  color: #4a5568;
+  font-weight: 700;
+}
+
+.main {
+  max-width: 800px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.main__head-img img {
+  width: 50px;
+}
+
+.main__head-img {
+  display: flex;
+  justify-self: center;
+}
+
+.main-head > h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.main-about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tools, .goals-needs, .drive, .pain-points {
+  margin-left: 50px;
+}
+
+.tools p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.tools > .tab {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.tools-icon {
+  position: relative;
+}
+
+.tools-icon::before {
+  content: url(../img/icon/Icon\ Tools.png);
+  position: absolute;
+  left: -18%;
+}
+
+.tab {
+  font-size: 18px;
+  color: #4a5568;
+}
+
+.tab p {
+  margin: 8px 0;
+}
+
+.tab-2 {
+  margin-left: 60px;
+}
+
+.owner {
+  color: #4a5568;
+  font-weight: 600;
+  font-size: 25px !important;
+}
+
+.jobs {
+  margin-left: 160px;
+}
+
+.jobs-icon {
+  position: relative;
+}
+
+.jobs-icon::before {
+  content: url(../img/icon/Icon\ Jobs.png);
+  position: absolute;
+  left: -22%;
+}
+
+.goals-icon {
+  position: relative;
+}
+
+.goals-icon::before {
+  content: url(../img/icon/Icon\ Goals\ &\ Needs.png);
+  position: absolute;
+  left: -9%;
+}
+
+.drive-icon {
+  position: relative;
+}
+
+.drive-icon::before {
+  content: url(../img/icon/Icon\ Drive.png);
+  position: absolute;
+  left: -9.5%;
+}
+
+.pain-icon {
+  position: relative;
+}
+
+.pain-icon::before {
+  content: url(../img/icon/Icon\ Pain\ Points.png);
+  position: absolute;
+  left: -9%;
+}
+
+.goals-needs > p,
+.drive > p,
+.pain-points > p {
+  color: #4a5568;
+}/*# sourceMappingURL=style.css.map */
